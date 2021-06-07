@@ -2,6 +2,36 @@ import React from 'react';
 import { Form, Button, Container } from 'react-bootstrap';
 
 class RegisterApp extends React.Component {
+    constructor(props) {
+        super(props); 
+        this.state = {
+            firstName: "",
+            lastName: "", 
+            email: "",
+            password: ""
+        }
+        this.onClicking = this.onClicking.bind(this); 
+    }
+
+    onClicking = (e) => {
+        this.setState(fetch("http://localhost:8080/register", {
+            headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
+            method: "POST",
+            body: JSON.stringify({ firstName: this.state.firstName, lastName: this.state.lastName, email: this.state.email, password: this.state.password })
+        }));
+
+        fetch("http://localhost:8080/api/user/register", {
+            headers: { 'Accept' : 'application/json', 'Content-Type' : 'application/json' }, 
+            method: "POST", 
+            body: JSON.stringify({ username: this.state.firstName, password: this.state.password })
+        }); 
+    }
+
+    onFirstNameChange = (e) => this.setState({ ...this.state, firstName: e.target.value });
+    onLastNameChange = (e) => this.setState({ ...this.state, lastName: e.target.value });
+    onEmailChange = (e) => this.setState({ ...this.state, email: e.target.value });
+    onPasswordChange = (e) => this.setState({ ...this.state, password: e.target.value });
+    
     render() {
         return (
             <div>
@@ -12,7 +42,7 @@ class RegisterApp extends React.Component {
                 <Container className="text-left">
                     <Form onSubmit={this.onClicking}>
                         <Form.Group controlId="formBasicText" role="form">
-                            <Form.Label>First Name:</Form.Label>
+                            <Form.Label>First Name (Username):</Form.Label>
                             <Form.Control type="text" onChange={this.onFirstNameChange}/>
                          </Form.Group>
 
