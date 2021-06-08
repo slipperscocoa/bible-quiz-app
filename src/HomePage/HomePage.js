@@ -1,11 +1,11 @@
-import React from 'react'; 
+import React from 'react';
+import NavbarApp from '../HomePage/Navbar';  
 
 class HomePageApp extends React.Component {
-
     render() {
         return (
             <div>
-                <h1>I am rendering</h1>
+                <NavbarApp />
             </div>
         )
     }
