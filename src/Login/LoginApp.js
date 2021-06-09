@@ -1,6 +1,6 @@
 import React from 'react';
 import Login from './Login'; 
-import NavbarApp from '../HomePage/Navbar'; 
+import HomePageApp from '../HomePage/HomePage'; 
 
 class LoginApp extends React.Component {
     constructor(props) {
@@ -42,7 +42,7 @@ class LoginApp extends React.Component {
                             onPasswordChange={this.onPasswordChange}
                             onLogin={this.onLogin}
                             error={this.state.error}></Login>)
-                        : (<NavbarApp />)}
+                        : (<HomePageApp />)}
                 </header>
             </div>
         );
