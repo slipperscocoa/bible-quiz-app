@@ -3,7 +3,9 @@ import React from 'react';
 class QuizzesApp extends React.Component {
     render() {
         return(
-            <div>This is the quizzes page</div>
+            <div>
+                This is the quizzes page
+            </div>
         )
     }
 }

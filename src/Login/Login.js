@@ -9,8 +9,6 @@ import {
 } from "react-router-dom";
 
 class Login extends React.Component {
-
-
     render() {
         if (!this.props.token || this.props.token === "") {
             return (
