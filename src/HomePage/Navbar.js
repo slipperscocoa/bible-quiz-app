@@ -11,7 +11,7 @@ import CrosswordsApp from '../Games/Crosswords/Crosswords';
 import DottedVersesApp from '../Games/DottedVerses/DottedVerses'; 
 
 import UniqueWordsApp from '../Games/UniqueWords/UniqueWords';
-import ChapterOneApp from '../Games/UniqueWords/ChapterOne'; 
+import ChapterOneApp from '../Games/UniqueWords/UWC1'; 
 
 
 class NavbarApp extends React.Component {

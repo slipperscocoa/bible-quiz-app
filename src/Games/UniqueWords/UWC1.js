@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 
 var score = 0; 
 
-class ChapterOneApp extends React.Component {
+class UWC1App extends React.Component {
     
     genealogy = (e) => {
         var answer = e.target.value; 
@@ -184,4 +184,4 @@ class ChapterOneApp extends React.Component {
     }
 }
 
-export default ChapterOneApp
+export default UWC1App;
