@@ -3,19 +3,23 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 
 import HomePageApp from './HomePage'; 
+import TipsApp from './Tips';
+
 import QuizzesApp from '../Quizzes/Quizzes'; 
 import ChapterAnalysisApp from '../Games/ChapterAnalysis/ChapterAnalysis'; 
 import CrosswordsApp from '../Games/Crosswords/Crosswords'; 
 import DottedVersesApp from '../Games/DottedVerses/DottedVerses'; 
+
 import UniqueWordsApp from '../Games/UniqueWords/UniqueWords';
-import TipsApp from './Tips'; 
+import ChapterOneApp from '../Games/UniqueWords/ChapterOne'; 
+
 
 class NavbarApp extends React.Component {
     render() {
         return(
             <div>
                 <Router>
-                    <Navbar bg="info" className="HomePageNavBar" sticky="top">
+                    <Navbar bg="info" className="HomePageNavBar" fixed="top">
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-center">
                         <Nav>
@@ -31,8 +35,6 @@ class NavbarApp extends React.Component {
                     </Navbar.Collapse>
                     </Navbar>
                 
-                    <Link to="/tips">Link To Tips</Link>
-
                     <Switch>
                         <Route exact path="/" component={HomePageApp} />
 
@@ -47,6 +49,8 @@ class NavbarApp extends React.Component {
                         <Route exact path="/quizzes" component={QuizzesApp} />
 
                         <Route exact path="/tips" component={TipsApp} />
+
+                        <Route exact path="/chapterOne" component={ChapterOneApp} />
                         
                     </Switch>
                 </Router>

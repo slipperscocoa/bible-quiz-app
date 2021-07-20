@@ -1,6 +1,8 @@
 import React from 'react';
 import './HomePage.css'; 
 
+import { Link } from 'react-router-dom'; 
+
 import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -11,8 +13,7 @@ class HomePageApp extends React.Component {
     render() {
         return (
             <div>
-                {/* <HomePageContent /> */}
-                <p>This is the HomePage</p>
+                <HomePageContent />
             </div>
         )
     }
@@ -42,7 +43,7 @@ class HomePageContent extends React.Component {
                     <Row>
                         <Col>
                             <p>Here is just some text that will explain what the picture does.</p>
-                            {/* <Button variant="outline-info" size="sm">Contact me</Button>{' '} */}
+                            <Button variant="outline-info" size="sm" onClick={this.handleClick}><Link to="/tips">Tips</Link></Button>
                         </Col>
                         <Col>
                             <Image src="https://i.picsum.photos/id/922/200/200.jpg?hmac=2ePRMbZ5V-IoV8hGz1XNSAUmQLPTOtYIAxgBHVWD3cU" alt="dotted verses" className="LinkPics hover-zoom" fluid></Image>
