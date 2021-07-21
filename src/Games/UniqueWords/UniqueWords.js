@@ -5,6 +5,8 @@ class UniqueWordsApp extends React.Component {
     render() {
         return (
             <div>
+                <h4 className="text-warning" style={{ paddingTop: '90px' }}>Throughout the Scripture portion, there are words that only appear ONCE in the entire book. This Fill-in-the-Blank game will test your knowledge of these unique words.</h4>
+                <br/>
                 <ul style={{ listStyleType: 'none', fontSize: '20px' }}>
                     <li style={{ paddingBottom: '15px' }}><a style={{ color: 'white'}}><Link to="/uwc1">Chapter 1</Link></a></li>
                     <li style={{ paddingBottom: '15px' }}><a style={{ color: 'white'}}><Link to="/uwc2">Chapter 2</Link></a></li>
