@@ -7,6 +7,12 @@ import TipsApp from './Tips';
 import HelpApp from './Help';
 
 import QuizzesApp from '../Quizzes/Quizzes'; 
+import QC1S1App from '../Quizzes/QC1S1';
+import QC1S2App from '../Quizzes/QC1S2';
+import QC2S1App from '../Quizzes/QC2S1';
+import QC2S2App from '../Quizzes/QC2S2';
+import QC2S3App from '../Quizzes/QC2S3';
+
 import ChapterAnalysisApp from '../Games/ChapterAnalysis/ChapterAnalysis';
 
 import CrosswordsApp from '../Games/Crosswords/Crosswords'; 
@@ -58,15 +64,10 @@ class NavbarApp extends React.Component {
                         <Route exact path="/" component={HomePageApp} />
 
                         <Route exact path="/crosswords" component={CrosswordsApp} />
-
                         <Route exact path="/cwc1s1" component={CWC1S1App} />
-
                         <Route exact path="/cwc1s2" component={CWC1S2App} />
-
                         <Route exact path="/cwc2s1" component={CWC2S1App} />
-
                         <Route exact path="/cwc2s2" component={CWC2S2App} />
-
                         <Route exact path="cwc2s3" component={CWC2S3App} />
                             
                         <Route exact path="/chapteranalysis" component={ChapterAnalysisApp} />
@@ -74,37 +75,30 @@ class NavbarApp extends React.Component {
                         <Route exact path="/dottedverses" component={DottedVersesApp} />
                             
                         <Route exact path="/uniquewords" component={UniqueWordsApp} />
+                        <Route exact path="/uwc1" component={UWC1App} />
+                        <Route exact path="/uwc2" component={UWC2App} />
+                        <Route exact path="/uwc3" component={UWC3App} />
+                        <Route exact path="/uwc4" component={UWC4App} />
+                        <Route exact path="/uwc5" component={UWC5App} />
+                        <Route exact path="/uwc6" component={UWC6App} />
+                        <Route exact path="/uwc7" component={UWC7App} />
+                        <Route exact path="/uwc8" component={UWC8App} />
+                        <Route exact path="/uwc14" component={UWC14App} />
+                        <Route exact path="/uwc15" component={UWC15App} />
+                        <Route exact path="/uwc27" component={UWC27App} />
+                        <Route exact path="/uwc28" component={UWC28App} />
                             
                         <Route exact path="/quizzes" component={QuizzesApp} />
+                        <Route exact path="/qc1s1" component={QC1S1App} />
+                        <Route exact path="/qc1s2" component={QC1S2App} />
+                        <Route exact path="/qc2s1" component={QC2S1App} />
+                        <Route exact path="/qc2s2" component={QC2S2App} />
+                        <Route exact path="/qc2s3" component={QC2S3App} />
 
                         <Route exact path="/tips" component={TipsApp} />
 
                         <Route exact path="/help" component={HelpApp} />
 
-                        <Route exact path="/uwc1" component={UWC1App} />
-
-                        <Route exact path="/uwc2" component={UWC2App} />
-
-                        <Route exact path="/uwc3" component={UWC3App} />
-
-                        <Route exact path="/uwc4" component={UWC4App} />
-
-                        <Route exact path="/uwc5" component={UWC5App} />
-
-                        <Route exact path="/uwc6" component={UWC6App} />
-
-                        <Route exact path="/uwc7" component={UWC7App} />
-
-                        <Route exact path="/uwc8" component={UWC8App} />
-
-                        <Route exact path="/uwc14" component={UWC14App} />
-
-                        <Route exact path="/uwc15" component={UWC15App} />
-
-                        <Route exact path="/uwc27" component={UWC27App} />
-
-                        <Route exact path="/uwc28" component={UWC28App} />
-                        
                     </Switch>
                 </Router>
             </div>
