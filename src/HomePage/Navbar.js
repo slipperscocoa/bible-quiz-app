@@ -22,8 +22,6 @@ import CWC2S1App from '../Games/Crosswords/CWC2S1';
 import CWC2S2App from '../Games/Crosswords/CWC2S2';
 import CWC2S3App from '../Games/Crosswords/CWC2S3';
 
-import DottedVersesApp from '../Games/DottedVerses/DottedVerses'; 
-
 import UniqueWordsApp from '../Games/UniqueWords/UniqueWords';
 import UWC1App from '../Games/UniqueWords/UWC1'; 
 import UWC2App from '../Games/UniqueWords/UWC2';
@@ -52,7 +50,6 @@ class NavbarApp extends React.Component {
                             <NavDropdown title="Games" id="basic-nav-dropdown" style={{ color: "black", margin: "15px" }}>
                                 <li><Link to="/crosswords" >Crosswords</Link></li>
                                 <li><Link to="/chapteranalysis">Chapter Analysis</Link></li>
-                                <li><Link to="/dottedverses">Dotted Verses</Link></li>
                                 <li><Link to="/uniquewords">Unique Words</Link></li>
                             </NavDropdown>
                             <Link to="/quizzes" style={{ color: "black", margin: "15px", marginTop: "23px" }}>Quizzes</Link>
@@ -71,9 +68,7 @@ class NavbarApp extends React.Component {
                         <Route exact path="cwc2s3" component={CWC2S3App} />
                             
                         <Route exact path="/chapteranalysis" component={ChapterAnalysisApp} />
-                            
-                        <Route exact path="/dottedverses" component={DottedVersesApp} />
-                            
+                                                        
                         <Route exact path="/uniquewords" component={UniqueWordsApp} />
                         <Route exact path="/uwc1" component={UWC1App} />
                         <Route exact path="/uwc2" component={UWC2App} />

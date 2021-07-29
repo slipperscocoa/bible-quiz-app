@@ -11,6 +11,10 @@ import Button from 'react-bootstrap/Button';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
+import FlashCard from './Images/flash-cards-photo.jpg'; 
+import Medal from './Images/medal-and-trophy-photo.jpg';
+import Rules from './Images/rule-books-photo.jpg';
+
 class HomePageApp extends React.Component {
     render() {
         return (
@@ -28,13 +32,13 @@ class HomePageContent extends React.Component {
                 <Container fluid>
                     <Row>
                         <Col style={{ paddingTop: '90px' }}>
-                            <h1 className="text-warning">Welcome to "Name"!</h1>
+                            <h1 className="text-warning">Welcome to Quiz Whiz!</h1>
                         </Col>
                     </Row>
                     <br />
                     <Row>
                         <Col>
-                            <Image src="https://i.picsum.photos/id/922/200/200.jpg?hmac=2ePRMbZ5V-IoV8hGz1XNSAUmQLPTOtYIAxgBHVWD3cU" alt="dotted verses" className="LinkPics hover-zoom" fluid></Image>
+                            <Image src={FlashCard} style={{width: '200px', height: '150px' }} alt="dotted verses" className="LinkPics hover-zoom" fluid></Image>
                         </Col>
                         <Col>
                             <h6>Each season, certain verses are marked with dots to indicate that quotation questions will only come from those verses. Print this PDF to create your own set of dotted verse flashcards.</h6>
@@ -48,13 +52,13 @@ class HomePageContent extends React.Component {
                             <Button variant="outline-info" size="sm"><Link to="/tips">Tips</Link></Button>
                         </Col>
                         <Col>
-                            <Image src="https://i.picsum.photos/id/922/200/200.jpg?hmac=2ePRMbZ5V-IoV8hGz1XNSAUmQLPTOtYIAxgBHVWD3cU" alt="dotted verses" className="LinkPics hover-zoom" fluid></Image>
+                            <Image src={Medal} style={{width: '200px', height: '150px' }} alt="dotted verses" className="LinkPics hover-zoom" fluid></Image>
                         </Col>
                     </Row>
                     <br />
                     <Row>
                         <Col>
-                            <Image src="https://i.picsum.photos/id/922/200/200.jpg?hmac=2ePRMbZ5V-IoV8hGz1XNSAUmQLPTOtYIAxgBHVWD3cU" alt="dotted verses" className="LinkPics hover-zoom" fluid></Image>
+                            <Image src={Rules} style={{width: '200px', height: '150px' }} alt="dotted verses" className="LinkPics hover-zoom" fluid></Image>
                         </Col>
                         <Col>
                             <p>If you are a brand-new quizzer, here is a page that will break down the terminology so you will get the most out of this app.</p>
@@ -64,7 +68,7 @@ class HomePageContent extends React.Component {
                 </Container>
                 <Navbar style={{ margin: '10px', borderStyle: 'solid' }} sticky="bottom">
                     <Nav>
-                    <h6>Thank you for using "name". Please know that this app is still a work in progress, and errors are inevitable. If you come across them or have suggestions for improvement, contact me at emilyharnish49@gmail.com</h6>
+                    <h6>Thank you for using Quiz Whiz. Please know that this app is still a work in progress, and errors are inevitable. If you come across them or have suggestions for improvement, contact me at emilyharnish49@gmail.com</h6>
                     </Nav>
                 </Navbar>
             </div>

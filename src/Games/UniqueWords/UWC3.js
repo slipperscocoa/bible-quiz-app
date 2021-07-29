@@ -366,7 +366,7 @@ class UWC3App extends React.Component {
             <div>
                 <Form style={{ paddingTop: '90px' }}>
                     <Form.Group>
-                        <Form.Text><h1>Matthew Chapter 3</h1></Form.Text>
+                        <Form.Text><h1 className="text-warning">Matthew Chapter 3</h1></Form.Text>
                     </Form.Group>
 
                     <Form.Group>
