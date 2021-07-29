@@ -7,6 +7,17 @@ import ScriptTag from 'react-script-tag';
 //     <script type="text/javascript" src="https://CrosswordHobbyist.com/embedjs?puzzle_id=12345"></script>
 // );
 
+// import { YellowBox } from 'react-native';
+// import _ from 'lodash';
+
+// YellowBox.ignoreWarnings(['componentWillReceiveProps']);
+// const _console = _.clone(console);
+// console.warn = message => {
+// if (message.indexOf('componentWillReceiveProps') <= -1) {
+//  _console.warn(message);
+// } 
+// };
+
 
 class CWC2S1App extends React.Component {
     render() {
