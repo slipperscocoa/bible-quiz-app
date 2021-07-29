@@ -6,7 +6,7 @@ class UniqueWordsApp extends React.Component {
         return (
             <div>
                 <h3 className="text-warning" style={{ paddingTop: '90px' }}>Unique Words</h3>
-                <h6 className="text-info" style={{ margin: '10px' }}>Throughout the Scripture portion, there are words that only appear ONCE in the entire book. This Fill-in-the-Blank game will test your knowledge of these unique words.</h6>
+                <h6 style={{ margin: '10px', marginTop: '20px' }}>Throughout the Scripture portion, there are words that only appear ONCE in the entire book. This Fill-in-the-Blank game will test your knowledge of these unique words.</h6>
                 <br/>
                 <ul style={{ listStyleType: 'none', fontSize: '20px' }}>
                     <li style={{ paddingBottom: '15px' }}><Link className="text-white" to="/uwc1">Chapter 1</Link></li>
@@ -14,14 +14,15 @@ class UniqueWordsApp extends React.Component {
                     <li style={{ paddingBottom: '15px' }}><Link className="text-white" to="/uwc3">Chapter 3</Link></li>
                     <li style={{ paddingBottom: '15px' }}><Link className="text-white" to="/uwc4">Chapter 4</Link></li>
                     <li style={{ paddingBottom: '15px' }}><Link className="text-white" to="/uwc5">Chapter 5</Link></li>
-                    <li style={{ paddingBottom: '15px' }}><Link className="text-white" to="/uwc6">Chapter 6</Link></li>
+                    {/* <li style={{ paddingBottom: '15px' }}><Link className="text-white" to="/uwc6">Chapter 6</Link></li>
                     <li style={{ paddingBottom: '15px' }}><Link className="text-white" to="/uwc7">Chapter 7</Link></li>
                     <li style={{ paddingBottom: '15px' }}><Link className="text-white" to="/uwc8">Chapter 8</Link></li>
                     <li style={{ paddingBottom: '15px' }}><Link className="text-white" to="/uwc14">Chapter 14</Link></li>
                     <li style={{ paddingBottom: '15px' }}><Link className="text-white" to="/uwc15">Chapter 15</Link></li>
                     <li style={{ paddingBottom: '15px' }}><Link className="text-white" to="/uwc27">Chapter 27</Link></li>
-                    <li style={{ paddingBottom: '15px' }}><Link className="text-white" to="/uwc28">Chapter 28</Link></li>
+                    <li style={{ paddingBottom: '15px' }}><Link className="text-white" to="/uwc28">Chapter 28</Link></li> */}
                 </ul>
+                <h4>Don't worry! Other chapters are coming!</h4>
             </div>
         )
     }

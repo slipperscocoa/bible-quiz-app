@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'; 
 import { Navbar, Nav } from 'react-bootstrap';
 
-class CWC1S1App extends React.Component {
+class CWC5S2App extends React.Component {
     render() {
         return (
             <div>
@@ -19,4 +19,4 @@ class CWC1S1App extends React.Component {
     }
 }
 
-export default CWC1S1App;
+export default CWC5S2App; 
