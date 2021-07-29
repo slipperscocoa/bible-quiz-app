@@ -1,29 +1,12 @@
 import React from 'react'; 
-// import { useEffect } from 'react'; 
 import { Link } from 'react-router-dom'; 
 
-
-
 class CrosswordsApp extends React.Component {
-    // useScript = () => {
-    //     useEffect(() => {
-    //         const script = document.createElement('script'); 
-    
-    //         script.src = "https://www.puzzlefast.com/en/puzzles/2021072723590350E/embed-script?width=600px&height=800px"; 
-    //         script.async = true; 
-    
-    //         document.body.appendChild(script); 
-    
-    //         return () => {
-    //             document.body.removeChild(script);
-    //         }
-    //     }, [url]);
-    // };
-    
     render() {
         return (
             <div>
-                <h4 className="text-warning">This is a description of the crosswords game. Organized by Section Title</h4>
+                <h3 className="text-warning" style={{ paddingTop: '90px' }}>Crossword Puzzles</h3>
+                <h6 style={{ margin: '10px', marginTop: '20px' }}>Test your knowledge of each section title's content with these crosswords!</h6>
                 <br/>
                 <ul style={{ listStyleType: 'none', fontSize: '20px' }}>
                     <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white'}} to="/cwc1s1">Chapter 1: The Genealogy of Jesus the Messiah</Link></li>
@@ -31,21 +14,23 @@ class CrosswordsApp extends React.Component {
                     <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white'}} to="/cwc2s1">Chapter 2: The Magi Visit the Messiah</Link></li>
                     <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white'}} to="/cwc2s2">Chapter 2: The Escape to Egypt</Link></li>
                     <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white'}} to="/cwc2s3">Chapter 2: The Return to Nazareth</Link></li>
-                    <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a href="https://crosswordhobbyist.com/938513/FAVORITE-AUTHORS" style={{ color: 'white'}}>This is just a trial</a></li>
-
-                    {/* <li style={{ paddingBottom: '15px' }}><a style={{ color: 'white'}}><Link to="/uwc6">Chapter 6</Link></a></li>
-                    <li style={{ paddingBottom: '15px' }}><a style={{ color: 'white'}}><Link to="/uwc7">Chapter 7</Link></a></li>
-                    <li style={{ paddingBottom: '15px' }}><a style={{ color: 'white'}}><Link to="/uwc8">Chapter 8</Link></a></li>
-                    <li style={{ paddingBottom: '15px' }}><a style={{ color: 'white'}}><Link to="/uwc14">Chapter 14</Link></a></li>
-                    <li style={{ paddingBottom: '15px' }}><a style={{ color: 'white'}}><Link to="/uwc15">Chapter 15</Link></a></li>
-                    <li style={{ paddingBottom: '15px' }}><a style={{ color: 'white'}}><Link to="/uwc27">Chapter 27</Link></a></li>
-                    <li style={{ paddingBottom: '15px' }}><a style={{ color: 'white'}}><Link to="/uwc28">Chapter 28</Link></a></li> */}
+                    <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white'}} to="/cwc3s1">Chapter 3: John the Baptist Prepares the Way</Link></li>
+                    <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white'}} to="/cwc3s2">Chapter 3: The Baptism of Jesus</Link></li>
+                    <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white'}} to="/cwc4s1">Chapter 4: Jesus is Tested in the Wilderness</Link></li>
+                    <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white'}} to="/cwc4s2">Chapter 4: Jesus Begins to Preach</Link></li>
+                    <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white'}} to="/cwc4s3">Chapter 4: Jesus Calls His First Disciples</Link></li>
+                    <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white'}} to="/cwc4s4">Chapter 4: Jesus Heals the Sick</Link></li>
+                    <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white'}} to="/cwc5s1">Chapter 5: Introduction to the Sermon on the Mount</Link></li>
+                    <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white'}} to="/cwc5s2">Chapter 5: The Beatitudes</Link></li>
+                    <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white'}} to="/cwc5s3">Chapter 5: Salt and Light</Link></li>
+                    <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white'}} to="/cwc5s4">Chapter 5: The Fulfillment of the Law</Link></li>
+                    <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white'}} to="/cwc5s5">Chapter 5: Murder</Link></li>
+                    <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white'}} to="/cwc5s6">Chapter 5: Adultery</Link></li>
+                    <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white'}} to="/cwc5s7">Chapter 5: Divorce</Link></li>
+                    <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white'}} to="/cwc5s8">Chapter 5: Oaths</Link></li>
+                    <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white'}} to="/cwc5s9">Chapter 5: Eye for Eye</Link></li>
+                    <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white'}} to="/cwc5s10">Chapter 5: Love for Enemies</Link></li>
                 </ul>
-                {/* <p><script type="text/javascript" src="https://CrosswordHobbyist.com/embedjs?puzzle_id=938513"></script></p> */}
-                {/* <a script={{ type="text/javascript", src="https://CrosswordHobbyist.com/embedjs?puzzle_id=938513"}}>Click</a> */}
-                <a href="https://CrosswordHobbyist.com/embedjs?puzzle_id=938513">Click</a>
-
-                {/* <button onClick={this.useScript}>Click</button> */}
             </div>
         )
     }
