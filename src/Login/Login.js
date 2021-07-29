@@ -41,7 +41,7 @@ class Login extends React.Component {
                     </div>
                     <br/>
                     <div>
-                        <button onClick={this.props.onLogin}>Submit</button>
+                        <button onClick={this.props.onLogin}>Log In</button>
                     </div>
                     <br/>
                     <br/>
