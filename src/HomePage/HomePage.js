@@ -29,9 +29,9 @@ class HomePageContent extends React.Component {
     render() {
         return (
             <div>
-                <Container fluid>
+                <Container fluid >
                     <Row>
-                        <Col style={{ paddingTop: '90px' }}>
+                        <Col style={{ paddingTop: '100px' }}>
                             <h1 className="text-warning">Welcome to Quiz Whiz!</h1>
                         </Col>
                     </Row>
@@ -42,7 +42,7 @@ class HomePageContent extends React.Component {
                         </Col>
                         <Col>
                             <h6>Each season, certain verses are marked with dots to indicate that quotation questions will only come from those verses. Print this PDF to create your own set of dotted verse flashcards.</h6>
-                            <a href="https://www.google.com">Dotted Verse PDF</a>
+                            <Button variant="outline-info" size="sm"><Link to="/dottedverses">Dotted Verses Link</Link></Button>
                         </Col>
                     </Row>
                     <br />

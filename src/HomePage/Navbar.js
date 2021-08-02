@@ -2,7 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 
+import RegisterApp from '../Register/RegisterApp';
 import HomePageApp from './HomePage'; 
+import DottedVersesApp from './DottedVerses';
 import TipsApp from './Tips';
 import HelpApp from './Help';
 
@@ -122,10 +124,14 @@ class NavbarApp extends React.Component {
                         <Route exact path="/qc2s2" component={QC2S2App} />
                         <Route exact path="/qc2s3" component={QC2S3App} />
 
+                        <Route exact path="/dottedverses" component={DottedVersesApp} />
+
                         <Route exact path="/tips" component={TipsApp} />
 
                         <Route exact path="/help" component={HelpApp} />
 
+                        <Route exact path="/register" component={RegisterApp} />
+                        
                     </Switch>
                 </Router>
             </div>
