@@ -36,7 +36,7 @@ class RegisterApp extends React.Component {
         return (
             <div>
                 <br/>
-                <h1>Sign up for a "App Name" Account!</h1>
+                <h1>Sign up for a Quiz Whiz Account!</h1>
                 <br/>
                 <br/>
                 <Container className="text-left">

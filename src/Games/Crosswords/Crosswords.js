@@ -31,6 +31,7 @@ class CrosswordsApp extends React.Component {
                     <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white'}} to="/cwc5s9">Chapter 5: Eye for Eye</Link></li>
                     <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white'}} to="/cwc5s10">Chapter 5: Love for Enemies</Link></li>
                 </ul>
+                <h4>Don't worry! Other chapters are coming!</h4>
             </div>
         )
     }
