@@ -16,6 +16,11 @@ import QC2S2App from '../Quizzes/QC2S2';
 import QC2S3App from '../Quizzes/QC2S3';
 
 import ChapterAnalysisApp from '../Games/ChapterAnalysis/ChapterAnalysis';
+import CAC1App from '../Games/ChapterAnalysis/CAC1';
+import CAC2App from '../Games/ChapterAnalysis/CAC2';
+import CAC3App from '../Games/ChapterAnalysis/CAC3';
+import CAC4App from '../Games/ChapterAnalysis/CAC4';
+import CAC5App from '../Games/ChapterAnalysis/CAC5';
 
 import CrosswordsApp from '../Games/Crosswords/Crosswords'; 
 import CWC1S1App from '../Games/Crosswords/CWC1S1';
@@ -102,6 +107,11 @@ class NavbarApp extends React.Component {
                         <Route exact path="/cwc5s10" component={CWC5S10App} />
                             
                         <Route exact path="/chapteranalysis" component={ChapterAnalysisApp} />
+                        <Route exact path="/cac1" component={CAC1App} />
+                        <Route exact path="/cac2" component={CAC2App} />
+                        <Route exact path="/cac3" component={CAC3App} />
+                        <Route exact path="/cac4" component={CAC4App} />
+                        <Route exact path="/cac5" component={CAC5App} />
                                                         
                         <Route exact path="/uniquewords" component={UniqueWordsApp} />
                         <Route exact path="/uwc1" component={UWC1App} />

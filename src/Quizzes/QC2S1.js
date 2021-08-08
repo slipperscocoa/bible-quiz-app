@@ -50,9 +50,9 @@ class QC2S1App extends React.Component {
         this.setState(({items}) => ({
           items: arrayMove(items, oldIndex, newIndex),
         }));
-        if (newIndex > 0) {
-          console.log("This");
-        };
+        // if ({items} === 'When' && newIndex === 0 ) {
+        //   console.log("This");
+        // };
       };
     
       render() {
