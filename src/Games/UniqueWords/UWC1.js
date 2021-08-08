@@ -214,7 +214,7 @@ class UWC1App extends React.Component {
         score = 0;
     }
 
-    getScore =() => {
+    getScore = () => {
         alert("You got " + score + "/17 correct!");
     }
 

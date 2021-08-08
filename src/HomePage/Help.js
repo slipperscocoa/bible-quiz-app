@@ -19,6 +19,7 @@ class HelpApp extends React.Component {
                     <li>Scripture Text Question</li>
                     <li>Essence Question</li>
                     <li>Quotation Question</li>
+                    <li>Chapter Analysis</li>
                 </ul>
                 <h6 style={{ textAlign: 'left', padding: '15px' }}>Give a Complete Answer
                  </h6>
