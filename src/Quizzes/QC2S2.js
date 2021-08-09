@@ -1,64 +1,19 @@
-import React, { useState } from 'react'; 
+import React from 'react'; 
 
-import { DndContext } from '@dnd-kit/core';
-import { useDraggable } from '@dnd-kit/core';
-import { useDroppable } from '@dnd-kit/core';
-import { CSS } from '@dnd-kit/utilities';
-
-// const style = {
-//     transform: CSS.Translate.toString(transform),
-// }
-
-function Draggable(props) {    
-    const {attributes, listeners, setNodeRef, transform} = useDraggable({
-        id: 'draggable',
-    });
-    const style = transform ? {
-        transform: `translate3d(${transform.x}px, ${transform.y}px, 0)`,
-    } : undefined;
-
-    return (
-        <button ref={setNodeRef} style={style} {...listeners} {...attributes}>
-            {props.children}
-        </button>
-    );
-}
-
-
-function Droppable(props) {
-    const {isOver, setNodeRef} = useDroppable({
-        id: 'droppable',
-    });
-    const style = {
-        color: isOver ? 'green' : undefined,
-    };
-
-    return (
-        <div ref={setNodeRef} style={style}>
-            {props.children}
-        </div>
-    );
-}
-
-function QC2S2App() {
-    const [isDropped, setIsDropped] = useState(false);
-    const draggableMarkup = (
-        <Draggable>Drag Me</Draggable>
-    );
-
-    return (
-        <DndContext onDragEnd={handleDragEnd}>
-            {!isDropped ? draggableMarkup : null}
-            <Droppable>
-                {isDropped ? draggableMarkup : 'Drop here'}
-            </Droppable>
-        </DndContext>
-    );
-
-    function handleDragEnd(event) {
-        if (event.over && event.over.id === 'droppable') {
-            setIsDropped(true);
-        }
+class QC2S2App extends React.Component {
+    render() {
+        return (
+            <div>
+                <iframe 
+                    src="https://wordwall.net/embed/5dd6111ff6f446a2b1c673a96d81f7a3?themeId=45&templateId=72" 
+                    width="375" 
+                    height="380" 
+                    frameBorder="0" 
+                    allowFullScreen={true}
+                    title="theEscapeToEgypt"
+                ></iframe>
+            </div>
+        )
     }
 }
 

@@ -14,6 +14,22 @@ import QC1S2App from '../Quizzes/QC1S2';
 import QC2S1App from '../Quizzes/QC2S1';
 import QC2S2App from '../Quizzes/QC2S2';
 import QC2S3App from '../Quizzes/QC2S3';
+import QC3S1App from '../Quizzes/QC3S1';
+import QC3S2App from '../Quizzes/QC3S2';
+import QC4S1App from '../Quizzes/QC4S1';
+import QC4S2App from '../Quizzes/QC4S2';
+import QC4S3App from '../Quizzes/QC4S3';
+import QC4S4App from '../Quizzes/QC4S4';
+import QC5S1App from '../Quizzes/QC5S1';
+import QC5S2App from '../Quizzes/QC5S2';
+import QC5S3App from '../Quizzes/QC5S3';
+import QC5S4App from '../Quizzes/QC5S4';
+import QC5S5App from '../Quizzes/QC5S5';
+import QC5S6App from '../Quizzes/QC5S6';
+import QC5S7App from '../Quizzes/QC5S7';
+import QC5S8App from '../Quizzes/QC5S8';
+import QC5S9App from '../Quizzes/QC5S9';
+import QC5S10App from '../Quizzes/QC5S10';
 
 import ChapterAnalysisApp from '../Games/ChapterAnalysis/ChapterAnalysis';
 import CAC1App from '../Games/ChapterAnalysis/CAC1';
@@ -133,6 +149,22 @@ class NavbarApp extends React.Component {
                         <Route exact path="/qc2s1" component={QC2S1App} />
                         <Route exact path="/qc2s2" component={QC2S2App} />
                         <Route exact path="/qc2s3" component={QC2S3App} />
+                        <Route exact path="/qc3s1" component={QC3S1App} />
+                        <Route exact path="/qc3s2" component={QC3S2App} />
+                        <Route exact path="/qc4s1" component={QC4S1App} />
+                        <Route exact path="/qc4s2" component={QC4S2App} />
+                        <Route exact path="/qc4s3" component={QC4S3App} />
+                        <Route exact path="/qc4s4" component={QC4S4App} />
+                        <Route exact path="/qc5s1" component={QC5S1App} />
+                        <Route exact path="/qc5s2" component={QC5S2App} />
+                        <Route exact path="/qc5s3" component={QC5S3App} />
+                        <Route exact path="/qc5s4" component={QC5S4App} />
+                        <Route exact path="/qc5s5" component={QC5S5App} />
+                        <Route exact path="/qc5s6" component={QC5S6App} />
+                        <Route exact path="/qc5s7" component={QC5S7App} />
+                        <Route exact path="/qc5s8" component={QC5S8App} />
+                        <Route exact path="/qc5s9" component={QC5S9App} />
+                        <Route exact path="/qc5s10" component={QC5S10App} />
 
                         <Route exact path="/dottedverses" component={DottedVersesApp} />
 

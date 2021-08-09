@@ -296,7 +296,7 @@ class UWC1App extends React.Component {
                     </Form.Group>
 
                     <Form.Group style={{ padding: '20px' }}>
-                        <Form.Text style={{ fontSize: '20px' }}>1:20 But after he had considered this, an angel of the Lord appeared to him in a dream and said, “Joseph sone of David, do not be afraid to take Mary home as your wife, because what is </Form.Text>
+                        <Form.Text style={{ fontSize: '20px' }}>1:20 But after he had considered this, an angel of the Lord appeared to him in a dream and said, “Joseph son of David, do not be afraid to take Mary home as your wife, because what is </Form.Text>
                         <Form.Control id="conceived" type="text" size="sm" onChange={this.conceived}></Form.Control>
                         <Form.Text style={{ fontSize: '20px' }}>in her is from the Holy Spirit.”</Form.Text>
                     </Form.Group>
