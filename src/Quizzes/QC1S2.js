@@ -1,27 +1,17 @@
 import React from 'react';
-import { DragDropContainer, DropTarget } from 'react-drag-drop-container';
 
 class QC1S2App extends React.Component {
     render() {
         return (
             <div>
-                <DragDropContainer targetKey="this" >
-                    <div style={{ margin: '10px', borderStyle: 'solid' }}>This</div>
-                </DragDropContainer>
-
-                <DragDropContainer targetKey="is">
-                    <div style={{ margin: '10px', borderStyle: 'solid' }}>is</div>
-                </DragDropContainer>
-
-
-
-                <DropTarget targetKey="this" >
-                    <p style={{ margin: '10px', borderStyle: 'solid' }}>    </p>
-                </DropTarget>
-
-                <DropTarget targetKey="is" >
-                    <p style={{ margin: '10px', borderStyle: 'solid' }}>    </p>
-                </DropTarget>
+                <iframe 
+                    src="https://wordwall.net/embed/aef2bf00bd034669b13b1cd6519f425b?themeId=45&templateId=72" 
+                    width="375" 
+                    height="380" 
+                    frameBorder="0" 
+                    allowFullScreen={true}
+                    title="josephAcceptsJesusAsHisSon"
+                ></iframe>
             </div>
         )
     }

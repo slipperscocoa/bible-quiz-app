@@ -5,7 +5,7 @@ class CrosswordsApp extends React.Component {
     render() {
         return (
             <div>
-                <h3 className="text-warning" style={{ paddingTop: '90px' }}>Crossword Puzzles</h3>
+                <h3 className="text-warning" style={{ paddingTop: '100px' }}>Crossword Puzzles</h3>
                 <h6 style={{ margin: '10px', marginTop: '20px' }}>Test your knowledge of each section title's content with these crosswords!</h6>
                 <br/>
                 <ul style={{ listStyleType: 'none', fontSize: '20px' }}>

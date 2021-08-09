@@ -29,7 +29,7 @@ class HomePageContent extends React.Component {
     render() {
         return (
             <div>
-                <Container fluid >
+                <Container fluid="lg">
                     <Row>
                         <Col style={{ paddingTop: '100px' }}>
                             <h1 className="text-warning">Welcome to Quiz Whiz!</h1>

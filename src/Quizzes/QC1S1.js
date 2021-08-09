@@ -1,43 +1,20 @@
 import React from 'react'; 
-import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
 
-function QC1S1App() {
-    const Chapter1Verse1 = ['This', 'is', 'the', 'genealogy', 'of', 'Jesus', 'the', 'Messiah', 'the', 'son', 'of', 'David', 'the', 'son', 'of', 'Abraham'];
-    
-    const List = props => {
-        const listItems = props.Chapter1Verse1.map((item, index) => (
-            <li key={index}>{item}</li>
-        ));
-        return <DragDropContext>
-                    <Droppable droppableId="Chapter1Verse1">
-                        {(provided) => (
-                            <ul className="Chapter1Verse1" {...provided.droppableProps} ref={provided.innerRef}>
-                                {listItems}
-                            </ul>
-                        )}
-                    </Droppable>
-                </DragDropContext>
+class QC1S1App extends React.Component {
+    render() {
+        return (
+            <div>
+                <iframe 
+                    src="https://wordwall.net/embed/e7579bb7e3a34c74a374e97f0153a22d?themeId=45&templateId=72" 
+                    width="375" 
+                    height="380" 
+                    frameBorder="0" 
+                    allowFullScreen={true}
+                    title="theGenealogyOfJesus"
+                ></iframe>
+            </div>
+        );
     }
-
-    return(
-        <div>
-            <List Chapter1Verse1={Chapter1Verse1} />
-        </div>
-    )
 }
-// class QC1S1App extends React.Component {
-//     // click() {
-//     //     for (var i = 0; i < Chapter1Verse1.length; i++) {
-//     //         <li>{(Chapter1Verse1[i])}</li>;
-//     //     }
-//     // }
-//     render() {
-//         return (
-//             <div>
-//                 <button onClick={this.click}>Click</button>
-//             </div>
-//         )
-//     }
-// }
 
 export default QC1S1App; 
