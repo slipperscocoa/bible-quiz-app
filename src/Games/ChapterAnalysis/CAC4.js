@@ -23,8 +23,8 @@ function CAC4App() {
     <div className={classes.root} style={{ padding: '15px', paddingTop: '90px', textAlign: 'left' }}>
       <h1 className='text-warning' style={{ textAlign: 'center' }}>Chapter Analysis</h1>
       <p style={{ fontSize: '16px', textAlign: 'center' }}>Proper names and places, as well as questions, exclamations, parenthetical statements, and Old Testament Scripture passages
-         make up the Chapter Analysis content. This section is a study tool for those questions. Drop down each tab to read the verses,
-         and then take a quiz to see how well you retained the information. For a more detailed explanation, check out our help page!
+         make up the Chapter Analysis content. This section is a study tool for those questions. Drop down each tab to read the verses
+         containing this content. For a more detailed explanation, check out our help page!
       </p>
       <br/>
       <br/>
