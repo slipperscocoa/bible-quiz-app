@@ -5,7 +5,7 @@ class TipsApp extends React.Component {
     render() {
         return (
             <div>
-                <Container fluid="lg">
+                <Container fluid="lg" className="text-white">
                     <h2 className="text-warning" style={{ textAlign: 'center', paddingTop: '100px' }}>Tips</h2>
                     <br />
                     <p>Every quizzer studies differently, so we asked several veteran TBQers to share the methods and practices they use to make their study time most effective: </p>

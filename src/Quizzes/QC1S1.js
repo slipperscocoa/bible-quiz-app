@@ -4,6 +4,11 @@ class QC1S1App extends React.Component {
     render() {
         return (
             <div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
                 <iframe 
                     src="https://wordwall.net/embed/e7579bb7e3a34c74a374e97f0153a22d?themeId=45&templateId=72" 
                     width="375" 
