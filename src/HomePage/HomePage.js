@@ -41,14 +41,14 @@ class HomePageContent extends React.Component {
                             <Image src={FlashCard} style={{width: '200px', height: '150px' }} alt="dotted verses" className="LinkPics hover-zoom" fluid></Image>
                         </Col>
                         <Col>
-                            <h6>Each season, certain verses are marked with dots to indicate that quotation questions will only come from those verses. Print this PDF to create your own set of dotted verse flashcards.</h6>
+                            <h6 className="text-white">Each season, certain verses are marked with dots to indicate that quotation questions will only come from those verses. Print this PDF to create your own set of dotted verse flashcards.</h6>
                             <Button variant="outline-info" size="sm"><Link to="/dottedverses">Dotted Verses Link</Link></Button>
                         </Col>
                     </Row>
                     <br />
                     <Row>
                         <Col>
-                            <p>Click here to check out a few tips and techniques from first place quizzers!</p>
+                            <p className="text-white">Click here to check out a few tips and techniques from first place quizzers!</p>
                             <Button variant="outline-info" size="sm"><Link to="/tips">Tips</Link></Button>
                         </Col>
                         <Col>
@@ -61,14 +61,14 @@ class HomePageContent extends React.Component {
                             <Image src={Rules} style={{width: '200px', height: '150px' }} alt="dotted verses" className="LinkPics hover-zoom" fluid></Image>
                         </Col>
                         <Col>
-                            <p>If you are a brand-new quizzer, here is a page that will break down the terminology so you will get the most out of this app.</p>
+                            <p className="text-white">If you are a brand-new quizzer, here is a page that will break down the terminology so you will get the most out of this app.</p>
                             <Button variant="outline-info" size="sm"><Link to="/help">Need Help?</Link></Button>
                         </Col>
                     </Row>
                 </Container>
                 <Navbar style={{ margin: '10px', borderStyle: 'solid' }} sticky="bottom">
                     <Nav>
-                    <h6>Thank you for using Quiz Whiz. Please know that this app is still a work in progress, and errors are inevitable. If you come across them or have suggestions for improvement, contact me at emilyharnish49@gmail.com</h6>
+                    <h6 className="text-white">Thank you for using Quiz Whiz. Please know that this app is still a work in progress, and errors are inevitable. If you come across them or have suggestions for improvement, contact me at emilyharnish49@gmail.com</h6>
                     </Nav>
                 </Navbar>
             </div>

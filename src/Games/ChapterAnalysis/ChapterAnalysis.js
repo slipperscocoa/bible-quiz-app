@@ -5,7 +5,13 @@ class ChapterAnalysisApp extends React.Component {
     render() {
         return (
             <div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
                 <h4 className="text-warning">Chapter Analysis </h4>
+                <br/>
                 <br/>
                 <ul style={{ listStyleType: 'none', fontSize: '20px' }}>
                     <li style={{ paddingBottom: '15px' }}><Link style={{ color: 'white'}} to="/cac1">Chapter 1</Link></li>
@@ -21,7 +27,19 @@ class ChapterAnalysisApp extends React.Component {
                     <li style={{ paddingBottom: '15px' }}><a style={{ color: 'white'}}><Link to="/uwc27">Chapter 27</Link></a></li>
                     <li style={{ paddingBottom: '15px' }}><a style={{ color: 'white'}}><Link to="/uwc28">Chapter 28</Link></a></li> */}
                 </ul>
-                <h4>Don't worry! Other chapters are coming!</h4>
+                <br/>
+                <br/>
+                <br/>
+                <h4 className="text-white">Don't worry! Other chapters are coming!</h4>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
             </div>
         )
     }

@@ -5,7 +5,7 @@ class HelpApp extends React.Component {
     render() {
         return (
             <div>
-                <Container fluid="lg">
+                <Container fluid="lg" className="text-white">
                     <h2 className="text-warning" style={{ textAlign: 'center', paddingTop: '100px' }}>Overview</h2>
                     <h6 style={{ fontSize: '15px' }}>Welcome to the Help Section of Quiz Whiz! I've written a VERY detailed explanation of the 
                         questions you will encounter in Bible Quizzing. This can be the most confusing part of TBQ,

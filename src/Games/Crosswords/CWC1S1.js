@@ -5,7 +5,7 @@ class CWC1S1App extends React.Component {
     render() {
         return (
             <div>
-                <a style={{ fontSize: '36px' }} href="https://crosswordlabs.com/embed/the-genealogy-of-jesus-the-messiah">Click for Crossword!</a>
+                <a style={{ fontSize: '36px', textColor: 'black' }} href="https://crosswordlabs.com/embed/the-genealogy-of-jesus-the-messiah">Click for Crossword!</a>
                 <Navbar style={{ margin: '10px', borderStyle: 'solid' }} fixed="bottom">
                     <Nav>
                         <h6>Note: Clicking on the link above will

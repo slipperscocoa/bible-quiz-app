@@ -6,7 +6,7 @@ class QuizzesApp extends React.Component {
         return(
             <div>
                 <h3 className="text-warning" style={{ paddingTop: '100px' }}>Quizzes</h3>
-                <h6 style={{ margin: '10px', marginTop: '20px' }}>These quizzes are the ultimate test to determine how well you know each verse. 
+                <h6 className="text-white" style={{ margin: '10px', marginTop: '20px' }}>These quizzes are the ultimate test to determine how well you know each verse. 
                     Rearrange the verses by putting each word in its correct place. If the verse is too long, it will be continued on the next slide.
                 </h6>
                 <br/>
@@ -33,7 +33,7 @@ class QuizzesApp extends React.Component {
                     <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white'}} to="/qc5s9">Chapter 5: Eye for Eye</Link></li>
                     <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white'}} to="/qc5s10">Chapter 5: Love for Enemies</Link></li>
                 </ul>
-                <h4>Don't worry! Other chapters are coming!</h4>
+                <h4 className="text-white">Don't worry! Other chapters are coming!</h4>
             </div>
         )
     }
