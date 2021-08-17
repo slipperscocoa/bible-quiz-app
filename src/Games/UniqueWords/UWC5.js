@@ -640,7 +640,7 @@ class UWC5App extends React.Component {
     render() {
         return(
             <div>
-                <Form style={{ paddingTop: '90px' }}>
+                <Form className="text-white" style={{ paddingTop: '90px' }}>
                     <Form.Group>
                         <Form.Text><h1 className="text-warning">Matthew Chapter 5</h1></Form.Text>
                     </Form.Group>

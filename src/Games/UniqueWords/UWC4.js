@@ -208,7 +208,7 @@ class UWC4App extends React.Component {
     render() {
         return(
             <div>
-                <Form style={{ paddingTop: '90px' }}>
+                <Form className="text-white" style={{ paddingTop: '90px' }}>
                     <Form.Group>
                         <Form.Text><h1 className="text-warning">Matthew Chapter 4</h1></Form.Text>
                     </Form.Group>
