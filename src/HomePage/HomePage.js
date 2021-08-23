@@ -33,6 +33,12 @@ class HomePageContent extends React.Component {
                     <Row>
                         <Col style={{ paddingTop: '100px' }}>
                             <h1 className="text-warning">Welcome to Quiz Whiz!</h1>
+                            <h5 className="text-white" style={{ fontSize: '15px' }} >This site aims to aid Teen Bible Quizzers in all areas of TBQ, beginning 
+                                with helpful tips and a simplified breakdown of rules and question types
+                                here on this home page. The Games and Quizzes sections are designed to 
+                                test how well you know the material and draw your focus to unique words
+                                and chapter analysis content. 
+                            </h5>
                         </Col>
                     </Row>
                     <br />
@@ -68,7 +74,7 @@ class HomePageContent extends React.Component {
                 </Container>
                 <Navbar style={{ margin: '10px', borderStyle: 'solid' }} sticky="bottom">
                     <Nav>
-                    <h6 className="text-white">Thank you for using Quiz Whiz. Please know that this app is still a work in progress, and errors are inevitable. If you come across them or have suggestions for improvement, contact me at emilyharnish49@gmail.com</h6>
+                    <h6 className="text-white">Thank you for using Quiz Whiz. Please know that this site is still a work in progress, and errors are inevitable. If you come across them or have suggestions for improvement, contact me at emilyharnish49@gmail.com</h6>
                     </Nav>
                 </Navbar>
             </div>
