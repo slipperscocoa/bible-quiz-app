@@ -1,13 +1,11 @@
 import React from 'react'; 
-import { Link } from 'react-router-dom'; 
-import { useHistory } from 'react-router-dom';
 
 class CrosswordsApp extends React.Component {
-    constructor(props) {
-        super(props); 
-        this.props.history.push("/");
-        this.props.history.push(this.props.match.url);
-    }
+    // constructor(props) {
+    //     super(props); 
+    //     this.props.history.push("/");
+    //     this.props.history.push(this.props.match.url);
+    // }
     render() {
         return (
             <div>
@@ -15,8 +13,9 @@ class CrosswordsApp extends React.Component {
                 <h6 className="text-white" style={{ margin: '10px', marginTop: '20px' }}>
                     Test your knowledge of each section title's content with these crosswords!
                     Note: Clicking on the link below will redirect you to another site. I am 
-                    currently working on embedding these crosswords into my app, but for now, 
-                    here is where you can access them. Enjoy!
+                    currently working on embedding these crosswords into my website, but for now, 
+                    here is where you can access them. Also, please be aware that there are 
+                    hypens in between multi-word responses. Enjoy!
                 </h6>
                 <br/>
                 <ul style={{ listStyleType: 'none', fontSize: '20px' }}>
