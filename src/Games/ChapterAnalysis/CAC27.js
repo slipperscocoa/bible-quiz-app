@@ -30,7 +30,7 @@ function CAC27App() {
         </p>
         <br />
         <br />
-        <h4 className='text-warning' style={{ textAlign: 'center' }}>Jesus is Tested in the Wilderness</h4>
+        <h4 className='text-warning' style={{ textAlign: 'center' }}>Judas Hangs Himself</h4>
         <br />
         <Accordion>
           <AccordionSummary
@@ -42,14 +42,10 @@ function CAC27App() {
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              4:1 Then <b>Jesus</b> was led by the Spirit into the wilderness to be tempted by the devil.
+              27:1 Early in the morning, all the chief priests and the elders of the people made their plans how to have <b>Jesus</b> executed.
               <br />
-              4:4 <b>Jesus</b> answered, "It is written: 'Man shall not live on bread alone, but on every word that comes
-              from the mouth of God.'"
-              <br />
-              4:7 <b>Jesus</b> answered him, "It is also written: 'Do not put the Lord your God to the test.'"
-              <br />
-              4:10 <b>Jesus</b> said to him, "Away from me, Satan! For it is written: 'Worship the Lord your God, and serve him only.'"
+              27:3 When Judas, who had betrayed him, say that <b>Jesus</b> was condemned, he was seized with remorse and returned the thirty
+              pieces of silver to the chief priests and the elders.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -60,12 +56,11 @@ function CAC27App() {
             aria-controls="panel2a-content"
             id="panel2a-header"
           >
-            <Typography className={classes.heading}>'Man shall not live on bread alone, but on every word that comes form the mouth of God'</Typography>
+            <Typography className={classes.heading}>Pilate</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              4:4 Jesus answered, "It is written: <b>'Man shall not live on bread alone, but on every word that comes
-                from the mouth of God.'</b>"
+              27:2 So they bound him, led him away and handed him oveer to <b>Pilate</b> the governor.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -76,12 +71,14 @@ function CAC27App() {
             aria-controls="panel2a-content"
             id="panel2a-header"
           >
-            <Typography className={classes.heading}>'He will command his angels concerning you, and they will lift you up in their hands, so that you will not strike your foot against a stone.'</Typography>
+            <Typography className={classes.heading}>Judas</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              4:6 "If you are the Son of God," he said, "throw yourself down. For it is written: <b>'He will command his angels concerning you,
-                and they will lift you up in their hands, so that you will not strike your foot against a stone.'</b>"
+              27:3 When <b>Judas</b>, who had betrayed him, say that Jesus was condemned, he was seized with remorse and returned the thirty
+                   pieces of silver to the chief priests and the elders.
+              <br/>
+              27:5 So <b>Judas</b> threw the money into the temple and left. Then he went away and hanged himself.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -92,11 +89,11 @@ function CAC27App() {
             aria-controls="panel2a-content"
             id="panel2a-header"
           >
-            <Typography className={classes.heading}>'Do not put the Lord your God to the test.'</Typography>
+            <Typography className={classes.heading}>"What is that to us?"</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              4:7 Jesus answered him, "It is also written: <b>'Do not put the Lord your God to the test.'</b>"
+              27:4 "I have sinned," he said, "for I have betrayed innocent blood." <b>"What is that to us?"</b> they replied, "That's your responsibility."
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -107,11 +104,11 @@ function CAC27App() {
             aria-controls="panel2a-content"
             id="panel2a-header"
           >
-            <Typography className={classes.heading}>"Away from me, Satan!"</Typography>
+            <Typography className={classes.heading}>Field of Blood</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              4:10 Jesus said to him, "<b>Away from me, Satan!</b> For it is written: 'Worship the Lord your God, and serve him only.'"
+              27:8 That is why it has been called the <b>Field of Blood</b> to this day.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -122,17 +119,17 @@ function CAC27App() {
             aria-controls="panel2a-content"
             id="panel2a-header"
           >
-            <Typography className={classes.heading}>'Worship the Lord your God, and serve him only.'</Typography>
+            <Typography className={classes.heading}>Jeremiah</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              4:10 Jesus said to him, "Away from me, Satan! For it is written: <b>'Worship the Lord your God, and serve him only.'</b>"
+              27:9 Then what was spoken by <b>Jeremiah</b> the prophet was fulfilled: "They took the thirty pieces of silver, the price set on him by the people of Israel,"
             </Typography>
           </AccordionDetails>
         </Accordion>
         <br />
         <br />
-        <h4 className='text-warning' style={{ textAlign: 'center' }}>Jesus Begins to Preach</h4>
+        <h4 className='text-warning' style={{ textAlign: 'center' }}>Jesus Before Pilate</h4>
         <br />
         <Accordion>
           <AccordionSummary
@@ -144,158 +141,227 @@ function CAC27App() {
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              4:12 When <b>Jesus</b> heard that John had been put in prison, he withdrew to Galilee.
+              27:11 Meanwhile <b>Jesus</b> stood before the governor, and the governor asked him, "Are you the king of the Jews?" "You have said so," <b>Jesus</b> replied.
               <br />
-              4:17 From that time on <b>Jesus</b> began to preach, "Repent, for the kingdom of heaven has come near."
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography className={classes.heading}>John</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              4:12 When Jesus heard that <b>John</b> had been put in prison, he withdrew to Galilee.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography className={classes.heading}>Galilee</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              4:12 When Jesus heard that John had been put in prison, he withdrew to <b>Galilee</b>.
+              27:14 But <b>Jesus</b> made no reply, not even to a single charge -- to the great amazement of the governor.
               <br />
-              4:15 “Land of Zebulun and land of Naphtali, the Way of the Sea, beyond the Jordan, <b>Galilee</b> of the Gentiles—
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography className={classes.heading}>Nazareth</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              4:13 Leaving <b>Nazareth</b>, he went and lived in Capernaum, which was by the lake in the area of Zebulun and Naphtali--
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography className={classes.heading}>Capernaum</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              4:13 Leaving Nazareth, he went and lived in <b>Capernaum</b>, which was by the lake in the area of Zebulun and Naphtali--
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography className={classes.heading}>Zebulun</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              4:13 Leaving Nazareth, he went and lived in Capernaum, which was by the lake in the area of <b>Zebulun</b> and Naphtali--
+              27:17 So when the crowd had gathered, Pilate asked them, "Which one do you want me to release to you: Jesus Barabbas, or <b>Jesus</b> who is called the Messiah?"
               <br />
-              4:15 “Land of <b>Zebulun</b> and land of Naphtali, the Way of the Sea, beyond the Jordan, Galilee of the Gentiles—
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography className={classes.heading}>Naphtali</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              4:13 Leaving Nazareth, he went and lived in Capernaum, which was by the lake in the area of Zebulun and <b>Naphtali</b>--
+              27:18 For he knew it was out of self-interest that they had handed <b>Jesus</b> over to him.
               <br />
-              4:15 “Land of Zebulun and land of <b>Naphtali</b>, the Way of the Sea, beyond the Jordan, Galilee of the Gentiles—
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography className={classes.heading}>Isaiah</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              4:14 to fulfill what was said through the prophet <b>Isaiah</b>:
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography className={classes.heading}>Jordan</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              4:15 “Land of Zebulun and land of Naphtali, the Way of the Sea, beyond the <b>Jordan</b>, Galilee of the Gentiles—
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography className={classes.heading}>“Land of Zebulun and land of Naphtali, the Way of the Sea, beyond the Jordan, Galilee of the Gentiles—the people living in darkness have seen a great light; on those living in the land of the shadow of death a light has dawned.”</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              4:15 <b>“Land of Zebulun and land of Naphtali, the Way of the Sea, beyond the Jordan, Galilee of the Gentiles—</b>
+              27:20 But the chief priests and the elders persuaded the crowd to ask for Barabbas and to have <b>Jesus</b> executed.
               <br />
-              4:16 <b>the people living in darkness have seen a great light; on those living in the land of the shadow of death a light has dawned.”</b>
+              27:22 "What shall I do, then, with <b>Jesus</b> who is called the Messiah?" Pilate asked. They all answered, "Crucify him!"
+              <br />
+              27:26 Then he released Barabbas to them. But he had <b>Jesus</b> flogged, and handed him over to be crucified.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>"Are you the king of the Jews?"</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              27:11 Meanwhile Jesus stood before the governor, and the governor asked him, <b>"Are you the king of the Jews?"</b> "You have said so," Jesus replied.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>Pilate</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              27:13 Then <b>Pilate</b> asked him, "Don't you hear the testimony they are bringing against you?"
+              <br />
+              27:17 So when the crowd had gathered, <b>Pilate</b> asked them, "Which one do you want me to release to you: Jesus Barabbas, or Jesus who is called the Messiah?"
+              <br/>
+              27:19 While <b>Pilate</b> was sitting on the judge's seat, his wife sent him this message: "Don't have anything to do with that innocent man, for I have suffered a great deal today in a dream because of him."
+              <br/>
+              27:22 "What shall I do, then, with Jesus who is called the Messiah?" <b>Pilate</b> asked. They all answered, "Crucify him!"
+              <br/>
+              27:23 "Why? What crime has he committed?" asked Pilate. But they shouted all the louder, "Crucify him!"
+              <br/>
+              27:24 When <b>Pilate</b> saw that he was getting nowhere, but that instead an uproar was starting, he took water and washed his hands in front of 
+                    the crowd. "I am innocent of this man's blood," he said. "It is your responsibility!"
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>"Don't you hear the testimony they are bringing against you?"</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              27:13 Then Pilate asked him, <b>"Don't you hear the testimony they are bringing against you?"</b>
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>Jesus Barabbas</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              27:16 At that time they had a well-known prisoner whose name was <b>Jesus Barabbas</b>.
+              <br/>
+              27:17 So when the crowd had gathered, Pilate asked them, "Which one do you want me to release to you: <b>Jesus Barabbas</b>, or Jesus who is called the Messiah?"
+              <br/>
+              27:20 But the chief priests and the elders persuaded the crowd to ask for <b>Barabbas</b> and to have Jesus executed.
+              <br/>
+              27:21 "Which of the two do you want me to release to you?" asked the governor. "<b>Barabbas</b>," they answered.
+              <br/>
+              27:26 Then he released <b>Barabbas</b> to them. But he had Jesus flogged, and handed him over to be crucified.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>"Which one do you want me to release to you: Jesus Barabbas, or Jesus who is called the Messiah?"</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              27:17 So when the crowd had gathered, Pilate asked them, <b>"Which one do you want me to release to you: Jesus Barabbas, or Jesus who is called the Messiah?"</b>
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>"Which of the two do you want me to release to you?"</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              27:21  <b>"Which of the two do you want me to release to you?"</b> asked the governor. "Barabbas," they answered.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>"What shall I do, then, with Jesus who is called the Messiah?"</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              27:22  <b>"What shall I do, then, with Jesus who is called the Messiah?"</b> Pilate asked. They all answered, "Crucify him!"
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>"Crucify him!"</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              27:22 "What shall I do, then, with Jesus who is called the Messiah?" Pilate asked. They all answered, <b>"Crucify him!"</b>
+              <br/>
+              27:23 "Why? What crime has he committed?" asked Pilate. But they shouted all the louder, <b>"Crucify him!"</b>
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>"Why?"</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              27:23 "<b>Why?</b> What crime has he committed?" asked Pilate. But they shouted all the louder, "Crucify him!"
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>"What crime has he committed?"</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              27:23 "Why? <b>What crime has he committed?</b>" asked Pilate. But they shouted all the louder, "Crucify him!"
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>"It is your responsibility!"</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              27:24 When Pilate saw that he was getting nowhere, but that instead an uproar was starting, he took water and washed his hands in front of 
+                    the crowd. "I am innocent of this man's blood," he said. <b>"It is your responsibility!"</b>
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>"His blood is on us and on our children!"</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              27:25 All the people answered, <b>"His blood is on us and on our children!"</b>
             </Typography>
           </AccordionDetails>
         </Accordion>
         <br />
         <br />
-        <h4 className='text-warning' style={{ textAlign: 'center' }}>Jesus Calls His First Disciples</h4>
+        <h4 className='text-warning' style={{ textAlign: 'center' }}>The Soldiers Mock Jesus</h4>
         <br />
         <Accordion>
           <AccordionSummary
@@ -307,13 +373,7 @@ function CAC27App() {
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              4:18 As <b>Jesus</b> was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother Andrew. They
-              were casting a net into the lake, for they were fishermen.
-              <br />
-              4:19 "Come, follow me," <b>Jesus</b> said, "and I will send you out to fish for people."
-              <br />
-              4:21 Going on from there, he saw two other brothers, James son of Zebedee and his brother John. They were in boat with their
-              father Zebedee, preparing their nets. <b>Jesus</b> called them,
+              27:27 Then the governor's soldiers took <b>Jesus</b> into the Praetorium and gathered the whole company of soldiers around him.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -324,12 +384,30 @@ function CAC27App() {
             aria-controls="panel2a-content"
             id="panel2a-header"
           >
-            <Typography className={classes.heading}>Sea of Galilee</Typography>
+            <Typography className={classes.heading}>"Hail, king of the Jews!"</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              4:18 As Jesus was walking beside the <b>Sea of Galilee</b>, he saw two brothers, Simon called Peter and his brother Andrew. They
-              were casting a net into the lake, for they were fishermen.
+              27:29 and then twisted together a crown of thorns and set it on his head. They put a staff in his right hand. Then they
+                    knelt in front of him and mocked him. <b>"Hail, king of the Jews!"</b> they said.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+        <br />
+        <br />
+        <h4 className='text-warning' style={{ textAlign: 'center' }}>The Crucifixion of Jesus</h4>
+        <br />
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>Cyrene</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              27:32 As they were going out, they met a man from <b>Cyrene</b>, named Simon, and they forced him to carry the cross.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -344,8 +422,24 @@ function CAC27App() {
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, <b>Simon</b> called Peter and his brother Andrew. They
-              were casting a net into the lake, for they were fishermen.
+              27:32 As they were going out, they met a man from Cyrene, named <b>Simon</b>, and they forced him to carry the cross.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+        
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel1a-content"
+            id="panel1a-header"
+          >
+            <Typography className={classes.heading}>Jesus</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              27:34 There they offered <b>Jesus</b> wine to drink, mixed with gall; but after tasting it, he refused to drink it.
+              <br/>
+              27:37 Above his head they placed the written charge against him: THIS IS <b>JESUS</b>, THE KING OF THE JEWS.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -356,11 +450,243 @@ function CAC27App() {
             aria-controls="panel2a-content"
             id="panel2a-header"
           >
-            <Typography className={classes.heading}>Peter</Typography>
+            <Typography className={classes.heading}>Golgotha</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called <b>Peter</b> and his brother Andrew. They
+              27:33 They came to a place called <b>Golgotha</b> (which means "the place of the skull")
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>(which means "the place of the skull")</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              27:33 They came to a place called Golgotha <b>(which means "the place of the skull")</b>.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>"the place of the skull"</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              27:33 They came to a place called Golgotha (which means <b>"the place of the skull"</b>)
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>"You who are going to destroy the temple and build it in three days, save yourself!"</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              27:40 and saying, "<b>You who are going to destroy the temple and build it in three days, save yourself!</b> Come down from the cross, if you are the Son of God!"
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>"Come down from the cross, if you are the Son of God!"</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              27:40 and saying, "You who are going to destroy the temple and build it in three days, save yourself! <b>Come down from the cross, if you are the Son of God!</b>"
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>"He saved others, but he can't save himself!"</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              27:42 "<b>He saved others,"</b> they said, <b>"but he can't save himself!"</b> "He's the king of Israel!" Let him come down now from the cross, and we will believe in him.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>"He's the king of Israel!"</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              27:42 "He saved others," they said, "but he can't save himself!" <b>"He's the king of Israel!"</b> Let him come down now from the cross, and we will believe in him.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+        <br />
+        <br />
+        <h4 className='text-warning' style={{ textAlign: 'center' }}>The Death of Jesus</h4>
+        <br />
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>Jesus</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              27:46 About three in the afternoon <b>Jesus</b> cried out in a loud voice, "Eli, Eli, ema sabachthani?" (which means, "My God,
+                    my God, why have you forsaken me?").
+              <br/>
+              27:48 Immediately one of them ran and got a sponge. He filled it with wine vinegar, put it on a staff, and offered it to <b>Jesus</b> to drink.
+              <br/>
+              27:50 And when <b>Jesus</b> had cried out again in a loud voice, he gave up his spirit.
+              <br/>
+              27:53 They came out of the tombs after <b>Jesus</b>' resurrection and went into the holy city and appeared to many people.
+              <br/>
+              27:54 When the centurion and those with him who were guarding <b>Jesus</b> saw the earthquake and all that had happened, they were
+                    terrified, and exclaimed, "Surely he was the Son of God!"
+              <br/>
+              27:55 Many women were there, watching from a distance. They had followed <b>Jesus</b> from Galilee to care for his needs.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>"Eli, Eli, ema sabachthani?"</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              27:46 About three in the afternoon Jesus cried out in a loud voice, <b>"Eli, Eli, ema sabachthani?"</b> (which means, "My God,
+                    my God, why have you forsaken me?").
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>(which means, "My God, my God, why have you forsaken me?")</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              27:46 About three in the afternoon Jesus cried out in a loud voice, "Eli, Eli, ema sabachthani?" <b>(which means, "My God,
+                    my God, why have you forsaken me?").</b>
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>"My God, my God, why have you forsaken me?" (Question)</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              27:46 About three in the afternoon Jesus cried out in a loud voice, "Eli, Eli, ema sabachthani?" (which means, <b>"My God,
+                    my God, why have you forsaken me?</b>").
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>"My God, my God, why have you forsaken me?" (Old Testament Scripture)</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              27:46 About three in the afternoon Jesus cried out in a loud voice, "Eli, Eli, ema sabachthani?" (which means, <b>"My God,
+                    my God, why have you forsaken me?</b>").
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>Elijah</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              27:47 When some of those standing there heard this, they said, "He's calling <b>Elijah</b>."
+              <br/>
+              27:49 The rest said, "Now leave him alone. Let's see if <b>Elijah</b> comes to save him."
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>"Surely he was the Son of God!"</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              27:54 When the centurion and those with him who were guarding Jesus saw the earthquake and all that had happened, they were
+                    terrified, and exclaimed, <b>"Surely he was the Son of God!"</b>
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>Andrew</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
               were casting a net into the lake, for they were fishermen.
             </Typography>
           </AccordionDetails>
@@ -388,16 +714,67 @@ function CAC27App() {
             aria-controls="panel2a-content"
             id="panel2a-header"
           >
-            <Typography className={classes.heading}>James</Typography>
+            <Typography className={classes.heading}>Andrew</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              4:21 Going on from there, he saw two other brothers, <b>James</b> son of Zebedee and his brother John. They were in boat with their
-              father Zebedee, preparing their nets. Jesus called them,
+              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
+              were casting a net into the lake, for they were fishermen.
             </Typography>
           </AccordionDetails>
         </Accordion>
 
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>Andrew</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
+              were casting a net into the lake, for they were fishermen.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>Andrew</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
+              were casting a net into the lake, for they were fishermen.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>Andrew</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
+              were casting a net into the lake, for they were fishermen.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+        <br />
+        <br />
+        <h4 className='text-warning' style={{ textAlign: 'center' }}>The Crucifixion of Jesus</h4>
+        <br />
         <Accordion>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
@@ -429,22 +806,231 @@ function CAC27App() {
             </Typography>
           </AccordionDetails>
         </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>Andrew</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
+              were casting a net into the lake, for they were fishermen.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>Andrew</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
+              were casting a net into the lake, for they were fishermen.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>Andrew</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
+              were casting a net into the lake, for they were fishermen.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>Andrew</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
+              were casting a net into the lake, for they were fishermen.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>Andrew</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
+              were casting a net into the lake, for they were fishermen.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>Andrew</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
+              were casting a net into the lake, for they were fishermen.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>Andrew</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
+              were casting a net into the lake, for they were fishermen.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>Andrew</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
+              were casting a net into the lake, for they were fishermen.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>Andrew</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
+              were casting a net into the lake, for they were fishermen.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>Andrew</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
+              were casting a net into the lake, for they were fishermen.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>Andrew</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
+              were casting a net into the lake, for they were fishermen.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>Andrew</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
+              were casting a net into the lake, for they were fishermen.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>Andrew</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
+              were casting a net into the lake, for they were fishermen.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
         <br />
         <br />
-        <h4 className='text-warning' style={{ textAlign: 'center' }}>Jesus Heals the Sick</h4>
+        <h4 className='text-warning' style={{ textAlign: 'center' }}>The Crucifixion of Jesus</h4>
         <br />
+
         <Accordion>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel1a-content"
-            id="panel1a-header"
+            aria-controls="panel2a-content"
+            id="panel2a-header"
           >
-            <Typography className={classes.heading}>Jesus</Typography>
+            <Typography className={classes.heading}>Andrew</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              4:23 <b>Jesus</b> went throughout Galilee, teaching in their synagogues, proclaiming the good news of the kingdom, and
-              healing every disease and sickness among the people.
+              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
+              were casting a net into the lake, for they were fishermen.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -455,14 +1041,12 @@ function CAC27App() {
             aria-controls="panel2a-content"
             id="panel2a-header"
           >
-            <Typography className={classes.heading}>Galilee</Typography>
+            <Typography className={classes.heading}>Andrew</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              4:23 Jesus went throughout <b>Galilee</b>, teaching in their synagogues, proclaiming the good news of the kingdom, and
-              healing every disease and sickness among the people.
-              <br />
-              4:25 Large crowds from <b>Galilee</b>, the Decapolis, Jerusalem, Judea and the region across the Jordan followed him.
+              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
+              were casting a net into the lake, for they were fishermen.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -473,12 +1057,12 @@ function CAC27App() {
             aria-controls="panel2a-content"
             id="panel2a-header"
           >
-            <Typography className={classes.heading}>Syria</Typography>
+            <Typography className={classes.heading}>Andrew</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              4:24 News about him spread all over <b>Syria</b>, and people brought to him all who were ill with various diseases, those
-              suffering severe pain, the demon-possessed, those having seizures, and the paralyzed; and he healed them.
+              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
+              were casting a net into the lake, for they were fishermen.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -489,11 +1073,12 @@ function CAC27App() {
             aria-controls="panel2a-content"
             id="panel2a-header"
           >
-            <Typography className={classes.heading}>Decapolis</Typography>
+            <Typography className={classes.heading}>Andrew</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              4:25 Large crowds from Galilee, the <b>Decapolis</b>, Jerusalem, Judea and the region across the Jordan followed him.
+              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
+              were casting a net into the lake, for they were fishermen.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -504,11 +1089,12 @@ function CAC27App() {
             aria-controls="panel2a-content"
             id="panel2a-header"
           >
-            <Typography className={classes.heading}>Jerusalem</Typography>
+            <Typography className={classes.heading}>Andrew</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              4:25 Large crowds from Galilee, the Decapolis, <b>Jerusalem</b>, Judea and the region across the Jordan followed him.
+              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
+              were casting a net into the lake, for they were fishermen.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -519,11 +1105,12 @@ function CAC27App() {
             aria-controls="panel2a-content"
             id="panel2a-header"
           >
-            <Typography className={classes.heading}>Judea</Typography>
+            <Typography className={classes.heading}>Andrew</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              4:25 Large crowds from Galilee, the Decapolis, Jerusalem, <b>Judea</b> and the region across the Jordan followed him.
+              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
+              were casting a net into the lake, for they were fishermen.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -534,11 +1121,108 @@ function CAC27App() {
             aria-controls="panel2a-content"
             id="panel2a-header"
           >
-            <Typography className={classes.heading}>Jordan</Typography>
+            <Typography className={classes.heading}>Andrew</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              4:25 Large crowds from Galilee, the Decapolis, Jerusalem, Judea and the region across the <b>Jordan</b> followed him.
+              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
+              were casting a net into the lake, for they were fishermen.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>Andrew</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
+              were casting a net into the lake, for they were fishermen.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>Andrew</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
+              were casting a net into the lake, for they were fishermen.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>Andrew</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
+              were casting a net into the lake, for they were fishermen.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>Andrew</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
+              were casting a net into the lake, for they were fishermen.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>Andrew</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
+              were casting a net into the lake, for they were fishermen.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>Andrew</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
+              were casting a net into the lake, for they were fishermen.
             </Typography>
           </AccordionDetails>
         </Accordion>
