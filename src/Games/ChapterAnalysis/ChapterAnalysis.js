@@ -22,8 +22,8 @@ class ChapterAnalysisApp extends React.Component {
                     <li style={{ paddingBottom: '15px' }}><Link style={{ color: 'white'}} to="/cac6">Chapter 6</Link></li>
                     <li style={{ paddingBottom: '15px' }}><Link style={{ color: 'white'}} to="/cac7">Chapter 7</Link></li>
                     <li style={{ paddingBottom: '15px' }}><Link style={{ color: 'white'}} to="/cac8">Chapter 8</Link></li>
-                    {/* <li style={{ paddingBottom: '15px' }}><a style={{ color: 'white'}}><Link to="/cac14">Chapter 14</Link></a></li>
-                    <li style={{ paddingBottom: '15px' }}><a style={{ color: 'white'}}><Link to="/cac15">Chapter 15</Link></a></li> */}
+                    <li style={{ paddingBottom: '15px' }}><Link style={{ color: 'white'}} to="/cac14">Chapter 14</Link></li>
+                    <li style={{ paddingBottom: '15px' }}><Link style={{ color: 'white'}} to="/cac15">Chapter 15</Link></li>
                     {/* <li style={{ paddingBottom: '15px' }}><a style={{ color: 'white'}}><Link to="/cac27">Chapter 27</Link></a></li>
                     <li style={{ paddingBottom: '15px' }}><a style={{ color: 'white'}}><Link to="/cac28">Chapter 28</Link></a></li> */}
                 </ul>

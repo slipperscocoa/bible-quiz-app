@@ -17,8 +17,8 @@ class UniqueWordsApp extends React.Component {
                     <li style={{ paddingBottom: '15px' }}><Link className="text-white" to="/uwc6">Chapter 6</Link></li>
                     <li style={{ paddingBottom: '15px' }}><Link className="text-white" to="/uwc7">Chapter 7</Link></li>
                     <li style={{ paddingBottom: '15px' }}><Link className="text-white" to="/uwc8">Chapter 8</Link></li>
-                    {/* <li style={{ paddingBottom: '15px' }}><Link className="text-white" to="/uwc14">Chapter 14</Link></li>
-                    <li style={{ paddingBottom: '15px' }}><Link className="text-white" to="/uwc15">Chapter 15</Link></li> */}
+                    <li style={{ paddingBottom: '15px' }}><Link className="text-white" to="/uwc14">Chapter 14</Link></li>
+                    <li style={{ paddingBottom: '15px' }}><Link className="text-white" to="/uwc15">Chapter 15</Link></li>
                     {/* <li style={{ paddingBottom: '15px' }}><Link className="text-white" to="/uwc27">Chapter 27</Link></li>
                     <li style={{ paddingBottom: '15px' }}><Link className="text-white" to="/uwc28">Chapter 28</Link></li> */}
                 </ul>

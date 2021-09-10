@@ -2,11 +2,6 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 
 class CrosswordsApp extends React.Component {
-    // constructor(props) {
-    //     super(props); 
-    //     this.props.history.push("/");
-    //     this.props.history.push(this.props.match.url);
-    // }
     render() {
         return (
             <div>
@@ -42,6 +37,23 @@ class CrosswordsApp extends React.Component {
                         <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/oaths">Chapter 5: Oaths</a></li>
                         <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/eye-for-eye">Chapter 5: Eye for Eye</a></li>
                         <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/love-for-enemies">Chapter 5: Love for Enemies</a></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/giving-to-the-needy">Chapter 6: Giving to the Needy</a></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/prayer-133">Chapter 6: Prayer</a></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/fasting-20">Chapter 6: Fasting</a></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/treasures-in-heaven-3">Chapter 6: Treasures in Heaven</a></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/do-not-worry-2">Chapter 6: Do Not Worry</a></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/judging-others">Chapter 7: Juding Others</a></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/ask-seek-knock">Chapter 7: Ask, Seen, Knock</a></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/the-narrow-and-wide-gates">Chapter 7: The Narrow and Wide Gates</a></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/true-and-false-prophets">Chapter 7: True and False Prophets</a></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/true-and-false-disciples">Chapter 7: True and False Disciples</a></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/the-wise-and-foolish-builders-2">Chapter 7: The Wise and Foolish Builders</a></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/jesus-heals-a-man-with-leprosy-2">Chapter 8: Jesus Heals a Man With Leprosy</a></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/the-faith-of-the-centurion">Chapter 8: The Faith of the Centurion</a></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/jesus-heals-many-2">Chapter 8: Jesus Heals Many</a></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/the-cost-of-following-jesus">Chapter 8: The Cost of Following Jesus</a></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/jesus-calms-the-storm-4">Chapter 8: Jesus Calms the Storm</a></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/jesus-restores-two-demon-possessed-men">Chapter 8: Jesus Restores Two Demon-Possessed Men</a></li>
                     </ul>
                     <h4 className="text-white">Don't worry! Other chapters are coming!</h4>
                 </Container>

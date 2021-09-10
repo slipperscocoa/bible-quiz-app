@@ -51,6 +51,12 @@ class QuizzesApp extends React.Component {
                         <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white' }} to="/qc8s4">Chapter 8: The Cost of Following Jesus</Link></li>
                         <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white' }} to="/qc8s5">Chapter 8: Jesus Calms the Storm</Link></li>
                         <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white' }} to="/qc8s6">Chapter 8: Jesus Restores Two Demon-Possessed Men</Link></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white' }} to="/qc14s1">Chapter 14: John the Baptist Beheaded</Link></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white' }} to="/qc14s2">Chapter 14: Jesus Feeds the Five Thousand</Link></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white' }} to="/qc14s3">Chapter 14: Jesus Walks on the Water</Link></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white' }} to="/qc15s1">Chapter 15: That Which Defiles</Link></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white' }} to="/qc15s2">Chapter 15: The Faith of a Canannite Woman</Link></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white' }} to="/qc15s3">Chapter 15: Jesus Feeds the Four Thousand</Link></li>
                     </ul>
                     <h4 className="text-white">Don't worry! Other chapters are coming!</h4>
                 </Container>
