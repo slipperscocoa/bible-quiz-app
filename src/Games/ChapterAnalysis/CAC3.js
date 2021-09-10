@@ -5,6 +5,7 @@ import AccordionSummary from '@material-ui/core/AccordionSummary';
 import AccordionDetails from '@material-ui/core/AccordionDetails';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import Container from 'react-bootstrap/Container'; 
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -21,6 +22,7 @@ function CAC3App() {
 
   return (
     <div className={classes.root} style={{ padding: '15px', paddingTop: '90px', textAlign: 'left' }}>
+      <Container fluid='lg'>
       <h1 className='text-warning' style={{ textAlign: 'center' }}>Chapter Analysis</h1>
       <p className="text-white" style={{ fontSize: '16px', textAlign: 'center' }}>Proper names and places, as well as questions, exclamations, parenthetical statements, and Old Testament Scripture passages
          make up the Chapter Analysis content. This section is a study tool for those questions. Drop down each tab to read the verses
@@ -273,6 +275,7 @@ function CAC3App() {
           </Typography>
         </AccordionDetails>
       </Accordion>
+      </Container>
     </div>
   );
 }

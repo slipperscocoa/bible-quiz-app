@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-function CAC4App() {
+function CAC28App() {
   const classes = useStyles();
 
   return (
@@ -547,4 +547,4 @@ function CAC4App() {
   );
 }
 
-export default CAC4App;
+export default CAC28App;

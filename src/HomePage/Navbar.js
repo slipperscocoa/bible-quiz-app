@@ -30,6 +30,29 @@ import QC5S7App from '../Quizzes/QC5S7';
 import QC5S8App from '../Quizzes/QC5S8';
 import QC5S9App from '../Quizzes/QC5S9';
 import QC5S10App from '../Quizzes/QC5S10';
+import QC6S1App from '../Quizzes/QC6S1';
+import QC6S2App from '../Quizzes/QC6S2';
+import QC6S3App from '../Quizzes/QC6S3';
+import QC6S4App from '../Quizzes/QC6S4';
+import QC6S5App from '../Quizzes/QC6S5';
+import QC7S1App from '../Quizzes/QC7S1';
+import QC7S2App from '../Quizzes/QC7S2';
+import QC7S3App from '../Quizzes/QC7S3';
+import QC7S4App from '../Quizzes/QC7S4';
+import QC7S5App from '../Quizzes/QC7S5';
+import QC7S6App from '../Quizzes/QC7S6';
+import QC8S1App from '../Quizzes/QC8S1';
+import QC8S2App from '../Quizzes/QC8S2';
+import QC8S3App from '../Quizzes/QC8S3';
+import QC8S4App from '../Quizzes/QC8S4';
+import QC8S5App from '../Quizzes/QC8S5';
+import QC8S6App from '../Quizzes/QC8S6';
+import QC14S1App from '../Quizzes/QC14S1';
+import QC14S2App from '../Quizzes/QC14S2';
+import QC14S3App from '../Quizzes/QC14S3';
+import QC15S1App from '../Quizzes/QC15S1';
+import QC15S2App from '../Quizzes/QC15S2';
+import QC15S3App from '../Quizzes/QC15S3';
 
 import ChapterAnalysisApp from '../Games/ChapterAnalysis/ChapterAnalysis';
 import CAC1App from '../Games/ChapterAnalysis/CAC1';
@@ -37,6 +60,11 @@ import CAC2App from '../Games/ChapterAnalysis/CAC2';
 import CAC3App from '../Games/ChapterAnalysis/CAC3';
 import CAC4App from '../Games/ChapterAnalysis/CAC4';
 import CAC5App from '../Games/ChapterAnalysis/CAC5';
+import CAC6App from '../Games/ChapterAnalysis/CAC6';
+import CAC7App from '../Games/ChapterAnalysis/CAC7';
+import CAC8App from '../Games/ChapterAnalysis/CAC8';
+import CAC14App from '../Games/ChapterAnalysis/CAC14';
+import CAC15App from '../Games/ChapterAnalysis/CAC15';
 
 import CrosswordsApp from '../Games/Crosswords/Crosswords'; 
 
@@ -86,6 +114,11 @@ class NavbarApp extends React.Component {
                         <Route exact path="/cac3" component={CAC3App} />
                         <Route exact path="/cac4" component={CAC4App} />
                         <Route exact path="/cac5" component={CAC5App} />
+                        <Route exact path="/cac6" component={CAC6App} />
+                        <Route exact path="/cac7" component={CAC7App} />
+                        <Route exact path="/cac8" component={CAC8App} />
+                        <Route exact path="/cac14" component={CAC14App} />
+                        <Route exact path="/cac15" component={CAC15App} />
                                                         
                         <Route exact path="/uniquewords" component={UniqueWordsApp} />
                         <Route exact path="/uwc1" component={UWC1App} />
@@ -123,6 +156,29 @@ class NavbarApp extends React.Component {
                         <Route exact path="/qc5s8" component={QC5S8App} />
                         <Route exact path="/qc5s9" component={QC5S9App} />
                         <Route exact path="/qc5s10" component={QC5S10App} />
+                        <Route exact path="/qc6s1" component={QC6S1App} />
+                        <Route exact path="/qc6s2" component={QC6S2App} />
+                        <Route exact path="/qc6s3" component={QC6S3App} />
+                        <Route exact path="/qc6s4" component={QC6S4App} />
+                        <Route exact path="/qc6s5" component={QC6S5App} />
+                        <Route exact path="/qc7s1" component={QC7S1App} />
+                        <Route exact path="/qc7s2" component={QC7S2App} />
+                        <Route exact path="/qc7s3" component={QC7S3App} />
+                        <Route exact path="/qc7s4" component={QC7S4App} />
+                        <Route exact path="/qc7s5" component={QC7S5App} />
+                        <Route exact path="/qc7s6" component={QC7S6App} />
+                        <Route exact path="/qc8s1" component={QC8S1App} />
+                        <Route exact path="/qc8s2" component={QC8S2App} />
+                        <Route exact path="/qc8s3" component={QC8S3App} />
+                        <Route exact path="/qc8s4" component={QC8S4App} />
+                        <Route exact path="/qc8s5" component={QC8S5App} />
+                        <Route exact path="/qc8s6" component={QC8S6App} />
+                        <Route exact path="/qc14s1" component={QC14S1App} />
+                        <Route exact path="/qc14s1" component={QC14S2App} />
+                        <Route exact path="/qc14s1" component={QC14S3App} />
+                        <Route exact path="/qc15s1" component={QC15S1App} />
+                        <Route exact path="/qc15s1" component={QC15S2App} />
+                        <Route exact path="/qc15s1" component={QC15S3App} />
 
                         <Route exact path="/dottedverses" component={DottedVersesApp} />
 
