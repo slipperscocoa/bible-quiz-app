@@ -682,12 +682,11 @@ function CAC27App() {
             aria-controls="panel2a-content"
             id="panel2a-header"
           >
-            <Typography className={classes.heading}>Andrew</Typography>
+            <Typography className={classes.heading}>Galilee</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
-              were casting a net into the lake, for they were fishermen.
+              27:55 Many women were there, watching from a distance. They had followed Jesus from <b>Galilee</b> to care for his needs.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -698,12 +697,11 @@ function CAC27App() {
             aria-controls="panel2a-content"
             id="panel2a-header"
           >
-            <Typography className={classes.heading}>Andrew</Typography>
+            <Typography className={classes.heading}>Mary Magdalene</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
-              were casting a net into the lake, for they were fishermen.
+              27:56 Among them were <b>Mary Magdalene</b>, Mary the mother of James and Joseph, and the mother of Zebedee's sons.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -714,12 +712,11 @@ function CAC27App() {
             aria-controls="panel2a-content"
             id="panel2a-header"
           >
-            <Typography className={classes.heading}>Andrew</Typography>
+            <Typography className={classes.heading}>Mary</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
-              were casting a net into the lake, for they were fishermen.
+              27::56 Among them were Mary Magdalene, <b>Mary</b> the mother of James and Joseph, and the mother of Zebedee's sons.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -730,12 +727,11 @@ function CAC27App() {
             aria-controls="panel2a-content"
             id="panel2a-header"
           >
-            <Typography className={classes.heading}>Andrew</Typography>
+            <Typography className={classes.heading}>James</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
-              were casting a net into the lake, for they were fishermen.
+              27:56 Among them were Mary Magdalene, Mary the mother of <b>James</b> and Joseph, and the mother of Zebedee's sons.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -746,35 +742,15 @@ function CAC27App() {
             aria-controls="panel2a-content"
             id="panel2a-header"
           >
-            <Typography className={classes.heading}>Andrew</Typography>
+            <Typography className={classes.heading}>Joseph</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
-              were casting a net into the lake, for they were fishermen.
+              27:56 Among them were Mary Magdalene, Mary the mother of James and <b>Joseph</b>, and the mother of Zebedee's sons.
             </Typography>
           </AccordionDetails>
         </Accordion>
 
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography className={classes.heading}>Andrew</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
-              were casting a net into the lake, for they were fishermen.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-        <br />
-        <br />
-        <h4 className='text-warning' style={{ textAlign: 'center' }}>The Crucifixion of Jesus</h4>
-        <br />
         <Accordion>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
@@ -785,238 +761,110 @@ function CAC27App() {
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              4:21 Going on from there, he saw two other brothers, James son of <b>Zebedee</b> and his brother John. They were in boat with their
-              father <b>Zebedee</b>, preparing their nets. Jesus called them,
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography className={classes.heading}>John</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              4:21 Going on from there, he saw two other brothers, James son of Zebedee and his brother <b>John</b>. They were in boat with their
-              father Zebedee, preparing their nets. Jesus called them,
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography className={classes.heading}>Andrew</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
-              were casting a net into the lake, for they were fishermen.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography className={classes.heading}>Andrew</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
-              were casting a net into the lake, for they were fishermen.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography className={classes.heading}>Andrew</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
-              were casting a net into the lake, for they were fishermen.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography className={classes.heading}>Andrew</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
-              were casting a net into the lake, for they were fishermen.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography className={classes.heading}>Andrew</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
-              were casting a net into the lake, for they were fishermen.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography className={classes.heading}>Andrew</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
-              were casting a net into the lake, for they were fishermen.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography className={classes.heading}>Andrew</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
-              were casting a net into the lake, for they were fishermen.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography className={classes.heading}>Andrew</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
-              were casting a net into the lake, for they were fishermen.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography className={classes.heading}>Andrew</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
-              were casting a net into the lake, for they were fishermen.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography className={classes.heading}>Andrew</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
-              were casting a net into the lake, for they were fishermen.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography className={classes.heading}>Andrew</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
-              were casting a net into the lake, for they were fishermen.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography className={classes.heading}>Andrew</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
-              were casting a net into the lake, for they were fishermen.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography className={classes.heading}>Andrew</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
-              were casting a net into the lake, for they were fishermen.
+              27:56 Among them were Mary Magdalene, Mary the mother of James and Joseph, and the mother of <b>Zebedee</b>'s sons.
             </Typography>
           </AccordionDetails>
         </Accordion>
         <br />
         <br />
-        <h4 className='text-warning' style={{ textAlign: 'center' }}>The Crucifixion of Jesus</h4>
+        <h4 className='text-warning' style={{ textAlign: 'center' }}>The Burial of Jesus</h4>
+        <br />
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>Arimathea</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              27:57 As evening approached, there came a rich man from <b>Arimathea</b>, named Joseph, who had himself become a disciple of Jesus.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>Joseph</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              27:57 As evening approached, there came a rich man from Arimathea, named <b>Joseph</b>, who had himself become a disciple of Jesus.
+              <br/>
+              27:59 <b>Joseph</b> took the body, wrapped it in a clean linen cloth,
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>Jesus</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              27:57 As evening approached, there came a rich man from Arimathea, named Joseph, who had himself become a disciple of <b>Jesus</b>.
+              <br/>
+              27:58 Going to Pilate, he asked for <b>Jesus</b>' body, and Pilate ordered that it be given to him.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>Pilate</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              27:58 Going to <b>Pilate</b>, he asked for Jesus' body, and <b>Pilate</b> ordered that it be given to him.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>Mary Magdalene</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              27:61 <b>Mary Magdalene</b> and other Mary were sitting there opposite the tomb.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={classes.heading}>Mary</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              27:61 Mary Magdalene and other <b>Mary</b> were sitting there opposite the tomb.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+        <br />
+        <br />
+        <h4 className='text-warning' style={{ textAlign: 'center' }}>The Guard at the Tomb</h4>
         <br />
 
         <Accordion>
@@ -1025,204 +873,13 @@ function CAC27App() {
             aria-controls="panel2a-content"
             id="panel2a-header"
           >
-            <Typography className={classes.heading}>Andrew</Typography>
+            <Typography className={classes.heading}>Pilate</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
-              were casting a net into the lake, for they were fishermen.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography className={classes.heading}>Andrew</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
-              were casting a net into the lake, for they were fishermen.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography className={classes.heading}>Andrew</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
-              were casting a net into the lake, for they were fishermen.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography className={classes.heading}>Andrew</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
-              were casting a net into the lake, for they were fishermen.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography className={classes.heading}>Andrew</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
-              were casting a net into the lake, for they were fishermen.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography className={classes.heading}>Andrew</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
-              were casting a net into the lake, for they were fishermen.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography className={classes.heading}>Andrew</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
-              were casting a net into the lake, for they were fishermen.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography className={classes.heading}>Andrew</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
-              were casting a net into the lake, for they were fishermen.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography className={classes.heading}>Andrew</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
-              were casting a net into the lake, for they were fishermen.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography className={classes.heading}>Andrew</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
-              were casting a net into the lake, for they were fishermen.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography className={classes.heading}>Andrew</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
-              were casting a net into the lake, for they were fishermen.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography className={classes.heading}>Andrew</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
-              were casting a net into the lake, for they were fishermen.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography className={classes.heading}>Andrew</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              4:18 As Jesus was walking beside the Sea of Galilee, he saw two brothers, Simon called Peter and his brother <b>Andrew</b>. They
-              were casting a net into the lake, for they were fishermen.
+              27:62 The next day, the one after Preparation Day, the chief priests and the Pharisees went to <b>Pilate</b>.
+              <br/>
+              27:65 "Take a guard," <b>Pilate</b> answered. "Go, make the tomb as secure as you know how."
             </Typography>
           </AccordionDetails>
         </Accordion>
