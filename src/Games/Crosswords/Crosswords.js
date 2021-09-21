@@ -12,7 +12,7 @@ class CrosswordsApp extends React.Component {
                         Note: Clicking on the link below will redirect you to another site. I am
                         currently working on embedding these crosswords into my website, but for now,
                         here is where you can access them. Also, please be aware that there are
-                        hypens in between multi-word responses. Enjoy!
+                        hyphens in between multi-word responses. Enjoy!
                     </h6>
                     <br />
                     <ul style={{ listStyleType: 'none', fontSize: '20px' }}>
@@ -54,6 +54,22 @@ class CrosswordsApp extends React.Component {
                         <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/the-cost-of-following-jesus">Chapter 8: The Cost of Following Jesus</a></li>
                         <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/jesus-calms-the-storm-4">Chapter 8: Jesus Calms the Storm</a></li>
                         <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/jesus-restores-two-demon-possessed-men">Chapter 8: Jesus Restores Two Demon-Possessed Men</a></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/john-the-baptist-beheaded">Chapter 14: John the Baptist Beheaded</a></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/jesus-feeds-the-five-thousand-5">Chapter 14: Jesus Feeds the Five Thousand</a></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/jesus-walks-on-the-water-2">Chapter 14: Jesus Walks on the Water</a></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/that-which-defiles">Chapter 15: That Which Defiles</a></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/the-faith-of-a-canaanite-woman">Chapter 15: The Faith of a Canaanite Woman</a></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/jesus-feeds-the-four-thousand">Chapter 15: Jesus Feeds the Four Thousand</a></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/judas-hangs-himself">Chapter 27: Judas Hangs Himself</a></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/jesus-before-pilate">Chapter 27: Jesus Before Pilate</a></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/the-soldiers-mock-jesus">Chapter 27: The Soldiers Mock Jesus</a></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/the-crucifixion-of-jesus">Chapter 27: The Crucifixion of Jesus</a></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/the-death-of-jesus-2">Chapter 27: The Death of Jesus</a></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/the-burial-of-jesus">Chapter 27: The Burial of Jesus</a></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/the-guard-at-the-tomb">Chapter 27: The Guard at the Tomb</a></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/jesus-has-risen-2">Chapter 28: Jesus Has Risen</a></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/the-guards-report">Chapter 28: The Guards' Report</a></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><a style={{ color: 'white' }} href="https://crosswordlabs.com/embed/the-great-commission-6">Chapter 28: The Great Commission</a></li>
                     </ul>
                     <h4 className="text-white">Don't worry! Other chapters are coming!</h4>
                 </Container>

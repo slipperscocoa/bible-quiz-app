@@ -57,8 +57,17 @@ class QuizzesApp extends React.Component {
                         <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white' }} to="/qc15s1">Chapter 15: That Which Defiles</Link></li>
                         <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white' }} to="/qc15s2">Chapter 15: The Faith of a Canannite Woman</Link></li>
                         <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white' }} to="/qc15s3">Chapter 15: Jesus Feeds the Four Thousand</Link></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white' }} to="/qc27s1">Chapter 27: Judas Hangs Himself</Link></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white' }} to="/qc27s2">Chapter 27: Jesus Before Pilate</Link></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white' }} to="/qc27s3">Chapter 27: The Soldiers Mock Jesus</Link></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white' }} to="/qc27s4">Chapter 27: The Crucifixion of Jesus</Link></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white' }} to="/qc27s5">Chapter 27: The Death of Jesus</Link></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white' }} to="/qc27s6">Chapter 27: The Burial of Jesus</Link></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white' }} to="/qc27s7">Chapter 27: The Guard at the Tomb</Link></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white' }} to="/qc28s1">Chapter 28: Jesus Has Risen</Link></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white' }} to="/qc28s2">Chapter 28: The Guards' Report</Link></li>
+                        <li style={{ paddingBottom: '15px', textAlign: 'left' }}><Link style={{ color: 'white' }} to="/qc28s3">Chapter 28: The Great Commission</Link></li>
                     </ul>
-                    <h4 className="text-white">Don't worry! Other chapters are coming!</h4>
                 </Container>
             </div>
         )
